@@ -49,8 +49,8 @@ This is the backend service for the rental platform, built using TypeScript and 
    JWT_PRIVATE_KEY=<secret-key-for-jwt>
    STRIPE_SECRET_KEY=<stripe-secret-key-got-from-stripe>
    STRIPE_ENDPOINT_SECRET=<stripe-end-point-secret>
-   PAYMENT_SUCCESS_URL=https://home-hunt-frontend.vercel.app/successful-payment
-   PAYMENT_FAILURE_URL=https://home-hunt-frontend.vercel.app/failed-payment
+   PAYMENT_SUCCESS_URL=https://home-hunt-frontend.vercel.app/tenant/successful-payment
+   PAYMENT_FAILURE_URL=https://home-hunt-frontend.vercel.app/tenant/failed-payment
    ```
 
 4. Start the server:
@@ -58,6 +58,10 @@ This is the backend service for the rental platform, built using TypeScript and 
 ```sh
 npm run dev
 ```
+
+## Live Deployment
+
+You can view the live deployment of the backend service [here](https://assignmentsixbackend.vercel.app/).
 
 ## Security Measures
 
