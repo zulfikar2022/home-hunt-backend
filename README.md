@@ -32,8 +32,8 @@ This is the backend service for the rental platform, built using TypeScript and 
 
 1. Clone the repository:
    ```sh
-   git clone <your-repo-url>
-   cd backend
+   git clone https://github.com/zulfikar2022/home-hunt-backend.git
+   cd home-hunt-backend
    ```
 2. Install dependencies:
    ```sh
@@ -48,17 +48,10 @@ This is the backend service for the rental platform, built using TypeScript and 
    EMAIL_PASS=<your-password-got-from-google>
    JWT_PRIVATE_KEY=<secret-key-for-jwt>
    STRIPE_SECRET_KEY=<stripe-secret-key-got-from-stripe>
-
+   STRIPE_ENDPOINT_SECRET=<stripe-end-point-secret>
+   PAYMENT_SUCCESS_URL=https://home-hunt-frontend.vercel.app/successful-payment
+   PAYMENT_FAILURE_URL=https://home-hunt-frontend.vercel.app/failed-payment
    ```
-
-PAYMENT_SUCCESS_URL=https://home-hunt-frontend.vercel.app/successful-payment
-PAYMENT_FAILURE_URL=https://home-hunt-frontend.vercel.app/failed-payment
-STRIPE_ENDPOINT_SECRET=<stripe-end-point-secret>
-
-```
-
-
-```
 
 4. Start the server:
 
