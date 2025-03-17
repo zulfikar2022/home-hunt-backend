@@ -64,7 +64,3 @@ npm run dev
 - **JWT Authentication**: Secure login system with role-based access.
 - **Bcrypt Hashing**: Ensures password security.
 - **Environment Variables**: Sensitive data is stored securely in `.env`.
-
-## License
-
-This project is licensed under the MIT License.
